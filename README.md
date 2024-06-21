@@ -1,4 +1,8 @@
-With the help of a partner, my partner and I were able to code in javascript using the P5.JS library. 
-My partner designed a beautiful flower with a varitey petals.
-I was able to code that whenever a user pressed a key the flower jumped and gained a new petal.
-Each petal that the flower had was displayed on screen according the number of petals.
+Abstract:
+For this project Me and my partner made an abstract interactive experience that the user can actively participate in for about a minute. We designed a website with a jumping Sunflower flower. Everytime the user hits a key the Sunflower jumps up and gains a petal. In the beginning of the interface the Sunflower has no petals, but once the user starts pressing on a key it gains a new petal. However the sunflower only gains five petals, until it goes back down to zero petals. 
+Methods:
+In order for the sunflower to gain a pedal each time it jumped into the air we had to ensure that the new sunflower image was in the same exact location as the old sunflower image that had one less pedal on it. We utilized the x and y coordinates that the Image function had in order to place our images in the same location. We also incorporated the event KeyIsPressed to signify to the program that the sunflower needed to be moved to a different location. Once the key that is being pressed is released the sunflower’s y coordinate goes back down to the original position. There was also a counter that counted each time the key was pressed. Depending on the number associated with the counter it would then arrive at an if statement that would then showcase the new Sunflower image associated with the jump.
+Findings:
+	During this project we learned a whole lot about how coordinates, images, and key pressing functions are utilized in P5JS. We learned how X and Y coordinates differ depending on the canvas size. X and Y coordinates also come in handy when trying to move an image back and forth. Images, we found out, have the ability to appear and disappear with the help of if statements. Key pressing functions were the most difficult to figure out because I had to try out several different key pressing functions to get the flower to jump only while the user was holding down a key. We also had to use a different key pressing function to count the number of times the key was released. Which was keyReleased().
+
+https://avelas68.github.io/JumpingFlower/
