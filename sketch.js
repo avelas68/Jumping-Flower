@@ -53,7 +53,7 @@ image(imgB, 0,0,500,500);
   text("Jump Count: " + count, 150,60);
  
 
-  if(keyIsPressed === true){
+  if(keyIsPressed === true  || mouseIsPressed == true){
     y = 260 - gravity;        
   }
   else{
@@ -69,4 +69,7 @@ function keyReleased(){
   count++; 
   
 
+}
+function mouseReleased(){
+  count++;
 }
