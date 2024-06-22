@@ -8,4 +8,4 @@ Findings:<br>
  ![JumpingFlowerImageCroped](https://github.com/avelas68/Jumping-Flower/assets/47703183/936961d9-b69b-45ed-9209-721e4add8b35)
 
 <br>
-https://avelas68.github.io/JumpingFlower/
+https://avelas68.github.io/Jumping-Flower/
